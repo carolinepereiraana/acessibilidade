@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #13e4f3bb;
+    --laranja-claro: #01d9e9bb;
 }
 
 body {
@@ -21,7 +21,7 @@ section {
 
 
 .nav-link {
-    color: #85e7daea;
+    color: #6df5e3ea;
     font-weight: 600;
 }
 
@@ -138,5 +138,5 @@ h2 {
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #ffffff6b;
+    background-color: #02c3fd6b;
 }
