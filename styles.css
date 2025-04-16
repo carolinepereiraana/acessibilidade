@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #80bbb8;
+    --laranja-claro: #ffa7f8bb;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #669fb9;
+    background-color: #ffffff;
 }
 
 
@@ -21,13 +21,13 @@ section {
 
 
 .nav-link {
-    color: #00cbda;
+    color: #ff8725ea;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/praia.png;
+    background-image: url('img/boiadera.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -59,7 +59,7 @@ section {
 .botao-inicio {
     background-color: var(--laranja-claro);
     border-radius: 30px;
-    border: none;ottom right no-repeat;
+    border: none;
     width: 14em;
     /* Convertido para em aumenta o tamanho da fonte por tabela*/
     height: 3em;
@@ -78,8 +78,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/praia.png') top right no-repeat,
-        url('img/praia.png;)
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -102,17 +102,17 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #fdabf2b6;
 
 }
 
 .fundo-galeria {
-    background: url('img/praia.png)
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/praia.png);
+    background-image: url('img/boiadera.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -120,49 +120,23 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #fab4f1;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
 
 .formulario button {
-    background-color: #cb439236;
+    background-color: #fb93ff88;
     border: none;
     font-weight: bold;
 }
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #f16ffd6b;
 }
-.menu-acessibilidade{
-    position: fixed;
-    top:2rem;
-    right:20px;
-    z-index: 1000;
-}ottom right no-repeat;
-.rotacao-botao{ 
-    transform: rotate(-90deg);
-    transform-origin: right center;
-}
-.opcoes-acessibilidade{
-    margin-top:10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.opcoes-acessibilidade button{
-    margin-bottom: 5px;
-}
-botaoDeAcessibilidade.addEventListener('click', function (){
-    botaoDeAcessibilidade.classList.toggle('rotacao-botao');
-    opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
-   })
-   
-
-   
