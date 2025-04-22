@@ -13,6 +13,12 @@ body {
 header {
     background-color: #ffffff;
 }
+.root {
+    --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
 
 
 section {
@@ -139,4 +145,10 @@ h2 {
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #02c3fd6b;
+}
+.root {
+    --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
 }
